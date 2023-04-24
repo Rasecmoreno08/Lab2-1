@@ -10,12 +10,11 @@ $result = pg_query($db, $query);
 <html>
 <head>
     <title>Lista de personas</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOUzXw9W9jI+fmP7I7aiecYjKfJvoE86X6hJXQVnE2Xlw5Q" crossorigin="anonymous">
 </head>
 <body>
     <div class="container">
         <h1>Lista de personas</h1>
-        <table class="table table-striped">
+        <table>
             <thead>
                 <tr>
                     <th>ID</th>
